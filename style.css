@@ -1,0 +1,244 @@
+/* agrego la google font Roboto 
+font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*HEADER*/
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #c9c6c6;
+}
+
+header h1{
+    width: 35%;
+    float: left;
+    position: relative;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+}
+
+.menu-general{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+}
+
+nav.menu-general ul.nav{
+    list-style-type: none;
+}
+nav.menu-general ul.nav li{
+    display: inline;
+}
+nav.menu-general ul.nav li a{
+    height: 110px;
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgb(20, 196, 78);
+    margin: 10px auto 0px auto;
+    padding: 0 5px  0 5px;
+    text-decoration: none;
+    text-align: center;
+    font: 8px bolder 'Roboto', sans-serif;
+    line-height: 110px;
+    box-sizing: border-box;
+}
+/* datos de tiempos*/
+
+.tiempos-coccion{
+    clear: both;
+    margin: 10px;
+    height: 40px;
+}
+
+ul.tiempos{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul.tiempos li {
+    display: inline;
+    margin: 10px 5px 10px 5px;
+    color: #ffffff;
+    background-color:rgb(20, 196, 78) ;
+    padding: 10px 5px  10px 5px;
+}
+/* aside: ingredientes*/
+
+#ingredientes{
+    width: 30%;
+    float: left;
+    margin: 20px 10px 30px 10px;
+    border: 5px solid rgb(20, 196, 78);
+    border-radius: 15px;
+    padding: 40px 10px;
+}
+h2, h3{
+    margin: 25px 15px;
+}
+.masa-madre{
+    list-style-type: none;
+}
+/*preparacion*/
+#preparacion{
+    margin: 30px 15px;
+}
+/*informacion nutricional*/
+#nutricional{
+    margin: 15px;
+    width: 45%;
+    float: left;
+}
+#nutricional p{
+    margin-left: 15px;
+}
+/*utensilios*/
+#utensilios{
+    margin: 5px;
+    width: 45%;
+    float: left;
+}
+#utensilios p{
+    margin-left: 15px;
+}
+/*footer*/
+img{
+    border-radius: 50%;
+    padding: 2% 25% 2% 25%;
+}
+
+
+/* para pantallas de hasta 619px */
+@media all and (max-width: 619px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/*HEADER*/
+header{
+    height: 230px;
+}
+
+header h1{
+    width: 100%;
+    height: 60px;
+    clear: both;
+    font-size: 22px;
+    margin: 10px;
+    text-align: center;
+}
+
+.menu-general{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav.menu-general ul.nav{
+    list-style-type: none;
+}
+nav.menu-general ul.nav li{
+    display: inline;
+}
+nav.menu-general ul.nav li a{
+    height: 60px;
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgb(20, 196, 78);
+    margin: 2px auto 2px 15px;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    text-align: center;
+    font: 6px bolder 'Roboto', sans-serif;
+    line-height: 60px;
+    box-sizing: border-box;
+}
+/* datos de tiempos*/
+
+.tiempos-coccion{
+    clear: both;
+    margin: 6px;
+    height: 80px;
+    font-size: 16px;
+    text-align: center;
+}
+
+ul.tiempos{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 80px;
+}
+ul.tiempos li {
+    display: block;
+    margin: 10px auto 10px auto;
+    color: #ffffff;
+    background-color:rgb(20, 196, 78) ;
+    padding: 10px auto 10px auto;
+}
+/* aside: ingredientes*/
+
+#ingredientes{
+    width: 95%;
+    clear: both;
+    margin: 10px;
+    border: 4px solid rgb(20, 196, 78);
+    border-radius: 20px;
+    padding: 15px 8px;
+}
+h2, h3{
+    margin: 15px 10px;
+    text-align: center;
+}
+
+.masa-madre{
+    list-style-type: none;
+}
+
+/*preparacion*/
+#preparacion{
+    margin: 10px;
+    padding: 10px;
+    border: 4px solid rgb(20, 196, 78);
+    border-radius: 20px;
+    clear: both;
+    width: 95%;
+}
+/*informacion nutricional*/
+#nutricional{
+    margin: 10px;
+    width: 95%;
+    clear: both;
+}
+#nutricional p{
+    margin-left: 15px;
+    text-align: center;
+}
+/*utensilios*/
+#utensilios{
+    margin: 5px;
+    width: 95%;
+    clear: both;
+}
+#utensilios p{
+    margin-left: 10px;
+}
+/*footer*/
+img{
+    border-radius: 50%;
+    padding: 1%;
+    width: 30%;
+    margin-left: 35%;
+}
+}
